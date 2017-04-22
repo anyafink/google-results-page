@@ -1,0 +1,112 @@
+* {
+	margin: 0; padding: 0;
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+.header {
+	background-color: #fafafa;
+	height: 90px;
+	width: 100%;
+}
+
+.logo, .form {
+	display: inline;
+	position: relative;
+	float: left;
+}
+
+.logo {
+	padding: 13px;
+	padding-top: 20px;
+}
+
+.form {
+	background-color: #fff;
+	height: 44px;
+	width: 632px;
+	margin-top: 20px;
+	margin-left: 3px;
+	border: .5px solid #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16),
+	0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+#search {
+	width: 511px;
+	height: 34px;
+	padding: 5px 9px 5px 16px;
+	font: 16px arial, sans-serif;
+	border: none;
+}
+
+#search:focus {
+	outline: none;
+}
+
+ul.nav {
+	list-style-type: none;
+	position: relative;
+	float: right;
+	top: 15px;
+	right: 20px;
+}
+
+.nav-li {
+	display: inline-block;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+
+#apps-img {
+	width: 23px;
+	height: 23px;
+}
+
+#notifs-img {
+	width: 20px;
+	height: 20px;
+}
+
+div.header-bottom {
+	height: 57px;
+	width: 100%;
+	background-color: #fafafa;
+}
+
+div.apps{
+	height: 57px;
+	width: 782px;
+	background-color: #fafafa;
+	color: #666;
+	font-size: 13px;
+}
+
+.apps-li {
+	display: inline;
+	position: relative;
+	float: left;
+	padding: 0 10px;
+}
+
+.apps-l {
+	position: relative;
+	float: left;
+	margin-left: 153px;
+}
+
+.apps-r {
+	position: relative;
+	float: right;
+}
+
+.nav-icon {
+	opacity: .60;
+}
+
+#gmail-img {
+	width: 32.5px;
+	height: 32.5px;
+	border-radius: 100%;
+}
