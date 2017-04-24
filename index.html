@@ -3,6 +3,10 @@
 <head>
 	<title>build this webpage</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
 	<div class="header">
@@ -11,19 +15,27 @@
 		</div>
 		<div class="form">
 			<input type="text" name="search" id="search" value="build this webpage">
+			<img src="images/sbv.png" id="btnSbv" class="searchBtns" title="Search by voice">
+			<i class="material-icons searchBtns">search</i>
 		</div>
 		<div class="nav">
 			<ul class="nav">
-				<li class="nav-li"><img src="images/apps.png" class="nav-icon" id="apps-img"></li>
+<!-- 				<li class="nav-li"><img src="images/apps.png" class="nav-icon" id="apps-img"></li>
 				<li class="nav-li"><img src="images/notifs.png" class="nav-icon" id="notifs-img"></li>
 				<li class="nav-li"><img src="images/gmail-photo.png" id="gmail-img"></li>
-			</ul>
+ -->		
+ 			<li class="nav-li" title="Google apps"><a href="https://www.google.com/intl/en/about/products/"><img src="images/apps.png" alt="Google apps" class="nav-icon" id="apps-img"></a></li>
+			
+			<li class="nav-li" title="0 Google notifications"> <img src="images/notifs.png" alt="Google notifications" class="nav-icon" id="notifs-img"> </li>
+			
+			<li class="nav-li"><a href="https://accounts.google.com"><img src="images/gmail-photo.png" alt="Google account" id="gmail-img"></a></li>	
+ 			</ul>
 		</div>
 	</div>
 	<div class="header-bottom">
 		<div class="apps">
 			<ul class="apps-l">
-				<li class="apps-li" autofocus>All</li>
+				<li class="apps-li" id="apps-all" autofocus>All</li>
 				<li class="apps-li">Videos</li>
 				<li class="apps-li">News</li>
 				<li class="apps-li">Maps</li>
@@ -33,6 +45,96 @@
 				<li class="apps-li">Settings</li>
 				<li class="apps-li">Tools</li>
 			</ul>
+		</div>
+	</div>
+	<div class="results">
+		<p id="data">About 2,730,000 results (0.48 seconds)</p>
+		<div class="search-results">
+			<div class="result">
+				<h3><a href="https://arstechnica.com/information-technology/2013/07/with-zero-coding-experience-artist-building-180-webpages-in-180-days/">With zero coding experience, artist building 180 webpages in 180 days</a></h3>
+				<h5>https://arstechnica.com/.../with-zero-coding-experience-artist-building-180-webpages-...</h5>
+				<h6>Jul 26, 2013 - </h6>
+				<p>117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</p>
+			</div>
+			<div class="result">
+				<h3><a href="http://swatikumar16.github.io/google-homepage/">Google Homepage</a></h3>
+				<h5>swatikumar16.github.io/google-homepage/</h5>
+				<h6>Jul 26, 2013 - </h6>
+				<p>117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she .</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFggtMAI&url=https%3A%2F%2Faryavansh.github.io%2Fgoogleresults%2F&usg=AFQjCNHf7A3KgFQ83DudOwrznaaYxtqjug&sig2=35iF4olfvQywTtnFhQpqDA">build this webpage - Google Search</a></h3>
+				<h5>https://aryavansh.github.io/googleresults/</h5>
+				<p>117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ... I'm learning to ...</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFggyMAM&url=https%3A%2F%2Fbenjdelt.github.io%2Fgoogle-results%2F&usg=AFQjCNFtkO5ymaii1HmidBybzeYxJ2AwDw&sig2=O2DNLCKdyIdVmFOx2EhGbg">build this webpage</a></h3>
+				<h5>https://benjdelt.github.io/google-results/</h5>
+				<h6>Jul 26, 2013 - </h6>
+				<p>117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she .</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFgg3MAQ&url=https%3A%2F%2Fbuiltwith.com%2F&usg=AFQjCNEI1Hp2yAPj-tqhNIgDhnzeTQWfNw&sig2=g0vVdRAkmGCu__QeEz2asQ">BuiltWith Technology Lookup</a></h3>
+				<h5>https://builtwith.com/</h5>
+				<p>Web technology information profiler tool. Find out what a website is built with.</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFgg8MAU&url=http%3A%2F%2Fblog.jenniferdewalt.com%2Fpost%2F56319597560%2Fim-learning-to-code-by-building-180-websites-in&usg=AFQjCNF2Gr3I4VpYqH48cg9kaPOfH3ywpw&sig2=TeVbAxeP_H0ahqrkq7pF7A">I'm learning to code by building 180 websites in 180 ... - Jennifer Dewalt</a></h3>
+				<h5>blog.jenniferdewalt.com/post/.../im-learning-to-code-by-building-180-websites-in</h5>
+				<h6>Jul 24, 2013 - </h6>
+				<p>Build a different website every day for 180 consecutive days. Every website must be accompanied by a blog post. Any code I write must be ...</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=7&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFghDMAY&url=http%3A%2F%2Fportfolio.shayleehansen.com%2Fgoogle_search%2F&usg=AFQjCNED4HdZxpouUKaohWJOvMjuso07lA&sig2=vNmHNb5cdlmXxhVPpFdPFA">build this webpage - Portfolio</a></h3>
+				<h5>portfolio.shayleehansen.com/google_search/</h5>
+				<p>With zero coding experience, artist building 180 webpages... Build Your Own Webpage | Codecademy; How Do We Know They Need This Webpage? | Inc.com ...</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFghIMAc&url=https%3A%2F%2Fwww.codecademy.com%2Fcourses%2Fweb-beginner-en-LceTK%2F0%2F1&usg=AFQjCNEke2Wo7vA5HIq4dwEibhkknCKJeg&sig2=BpFkvDWrqCKaGMTk5KyCHw">Build Your Own Webpage | Codecademy</a></h3>
+				<h5>https://www.codecademy.com/courses/web-beginner-en-LceTK/0/1</h5>
+				<p>Build Your Own Webpage. What you'll be making. Before we ask you to write a bunch of code, we think it's helpful for you to see exactly what you'll be making in ...</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFghNMAg&url=https%3A%2F%2Fwww.codecademy.com%2Fcourses%2Fwebsites-r-fun%2F&usg=AFQjCNFkDYHnq4n-ejX6TeTbSbSQ_UHlQw&sig2=mz3adF-XrC-ocgWOazHrXA">Build a Webpage from Scratch! | Codecademy</a></h3>
+				<h5>https://www.codecademy.com/courses/websites-r-fun/</h5>
+				<p>Before you build a house you need a foundation, and before you build a website you need some HTML foundation. No no wait...before you can paint you first ...</p>
+			</div>
+			<div class="result">
+				<h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&cad=rja&uact=8&ved=0ahUKEwjS25P70rrTAhVBjZQKHQLvCTsQFghTMAk&url=https%3A%2F%2Fwebsitesetup.org%2F&usg=AFQjCNHqHf9cG_Jcin8A6vwoduHqpX8xsQ&sig2=A9pa0U4r_herFgJHKyKbUg">How to Make a Website - Step-by-Step Guide for Beginners</a></h3>
+				<h5>https://websitesetup.org/</h5>
+				<h6>Nov 25, 2016 - </h6>
+				<p>Learn how to make a website and set it up. This site contains different tutorials on how to build a website using WordPress, Joomla, Drupal ...</p>
+			</div>
+		</div>
+		<div class="res-related">
+			<h3>Searches related to build this webpage</h3>
+			<ul>
+				<li><a href="https://www.google.com/search?q=yumhacker&sa=X&ved=0ahUKEwicjOeX8brTAhURNpQKHYARAzcQ1QIIXSgA">yumhacker</a></li>
+				<li><a href="https://www.google.com/search?q=jennifer+dewalt+linkedin&sa=X&ved=0ahUKEwicjOeX8brTAhURNpQKHYARAzcQ1QIIXigB">jennifer dewalt linkedin</a></li>
+				<li><a href="https://www.google.com/search?q=jen+dewalt&sa=X&ved=0ahUKEwicjOeX8brTAhURNpQKHYARAzcQ1QIIXygC">jen dewalt</a></li>
+			</ul>
+			<ul>
+				<li><a href="https://www.google.com/search?q=whois&sa=X&ved=0ahUKEwicjOeX8brTAhURNpQKHYARAzcQ1QIIYCgD">whois</a></li>
+				<li><a href="https://www.google.com/search?q=google+logo&sa=X&ved=0ahUKEwicjOeX8brTAhURNpQKHYARAzcQ1QIIYSgE">google logo</a></li>
+			</ul>
+		</div>
+		<div id="nav-end">
+			<img src="images/logo-footer.png">
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-head">
+			<p id="circle"></p>
+			<p id="location"><span lang="vi">Trung Văn, Từ Liêm, Hà Nội, Vietnam</span> - Reported by this computer - <a href="https://www.google.com/search?q=build+this+webpage#">Update location</a><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&sqi=2&ved=0ahUKEwjSheqth7vTAhULG5QKHe0yCFoQty4IYw&url=https%3A%2F%2Fsupport.google.com%2Fwebsearch%3Fp%3Dws_settings_location%26hl%3Den&usg=AFQjCNHlgSnvUiH73CVJPbvuNVgY6KO76A&sig2=R_k1VwCwzEv19iAsD_kGmg"> - Learn more</a></p>
+		</div>
+		<div class="fnav">
+			<ul class="fnav-ul">
+				<li class="fnav-li"><a href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1">Help</a></li>
+				<li class="fnav-li"><a href="javascript:void(0)">Send feedback</a></li>
+				<li class="fnav-li"><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+				<li class="fnav-li"><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+				<li class="fnav-li"><a href="https://www.google.com.vn/search?q=build+this+webpage&fg=1">Use Google.com.vn</a></li>
+			</ul>		
 		</div>
 	</div>
 </body>
